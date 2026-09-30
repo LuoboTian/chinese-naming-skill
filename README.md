@@ -51,12 +51,6 @@ cp -R /path/to/name-skill .cursor/skills/chinese-naming
 
 也可以直接把本仓库目录作为项目 Skill 使用。核心文件是根目录的 [`SKILL.md`](SKILL.md)。
 
-## 仓库名建议
-
-推荐 GitHub 仓库名：`chinese-naming-skill`
-
-这个名称比单独使用 `qiming-skill` 更明确，能同时表达“中文取名”和“Agent Skill”。如果你希望更短，也可以使用 `qiming-skill`；等你提供 GitHub 仓库地址后，再配置 remote 和发布流程。
-
 ## 设计原则
 
 八字五行、单字五行、康熙笔画和五格剖象存在不同算法与流派。本项目把它们作为传统文化参考和候选筛选维度，不将名字与命运、健康或财富建立确定因果关系。典籍出处无法核实时，会标注为意象化借鉴，不伪造原文。
@@ -71,4 +65,3 @@ cp -R /path/to/name-skill .cursor/skills/chinese-naming
 ## 许可证
 
 本项目使用 MIT License，详见 [`LICENSE`](LICENSE)。
-
